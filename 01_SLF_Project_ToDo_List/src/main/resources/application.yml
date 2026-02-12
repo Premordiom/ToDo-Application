@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: SLF_Project_ToDo_List
+  datasource:
+    url: jdbc:mysql://localhost:3306/jrtp28?createDatabaseIfNotExist=true
+    username: root
+    password: 757082
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:      
+      ddl-auto: create
+    show-sql: true
